@@ -10,8 +10,16 @@ adb shell
 
 am broadcast -a com.android.vending.INSTALL_REFERRER -n com.coderminion.referer/.RefererDataReciever --es "referrer" "Hey this is install from http://coderminion.com"
 
-<h1>Youtube</h1>
+Or 
 
+upload APK to Google Play Store and go to URL : https://play.google.com/store/apps/details?id=com.coderminion.referer&referrer=my_value
+
+URI scheme : market://details?id=com.coderminion.referer&referrer=my_value
+
+
+
+<h1>Youtube</h1>
+https://www.youtube.com/watch?v=of2xF-biyyA
 
 <h1>Screenshots</h1>
 

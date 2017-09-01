@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidReferer</string>
+    <string name="shell">Type in command prompt :-  adb shell</string>
+    <string name="shell_cmd">am broadcast -a com.android.vending.INSTALL_REFERRER -n com.coderminion.referer/.RefererDataReciever --es "referrer" "Hey this is install from http://coderminion.com"</string>
+    <string name="url">Or upload APK and go to URL : https://play.google.com/store/apps/details?id=com.coderminion.referer&amp;referrer=my_value</string>
+    <string name="uri">market://details?id=com.coderminion.referer&amp;referrer=my_value</string>
+</resources>
